@@ -39,7 +39,9 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-
+	
+    <link rel="stylesheet" href="css/navbar.css">	
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 	 <style>
         body {
             scroll-behavior: smooth; /* Enables smooth scrolling */
@@ -76,7 +78,53 @@
 		
 	<div class="fh5co-loader"></div>
 	
+		
+		
+		
+	<div class="site-navbar" role="banner">
+       <div class="container">
+        <div class="row align-items-center">
+          
+          <div class="col-11 col-xl-2">
+            <h1 class="mb-0 site-logo"><a href="index.html" class="text-white mb-0">Brand</a></h1>
+          </div>
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li class="active"><a href="index.html"><span>Home</span></a></li>
+                <li class="has-children">
+                  <a href="about.html"><span>Dropdown</span></a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="#">Menu One</a></li>
+                    <li><a href="#">Menu Two</a></li>
+                    <li><a href="#">Menu Three</a></li>
+                    <li class="has-children">
+                      <a href="#">Dropdown</a>
+                      <ul class="dropdown">
+                        <li><a href="#">Menu One</a></li>
+                        <li><a href="#">Menu Two</a></li>
+                        <li><a href="#">Menu Three</a></li>
+                        <li><a href="#">Menu Four</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="listings.html"><span>Listings</span></a></li>
+                <li><a href="about.html"><span>About</span></a></li>
+                <li><a href="blog.html"><span>Blog</span></a></li>
+                <li><a href="contact.html"><span>Contact</span></a></li>
+              </ul>
+            </nav>
+          </div>
+
+        </div>
+      </div>
+    </div>	
+		
 	<div id="page">	
+	
+		
 	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
@@ -744,6 +792,11 @@ By prioritizing user needs and incorporating feedback, I’m committed to delive
 	
 	<!-- Main -->
 	<script src="js/main.js"></script>
+	<script src="js/navbar.js"></script>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+
 	<!-- Smooth Scroll JavaScript -->
     <script>
         // Select all anchor links
