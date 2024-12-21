@@ -9,6 +9,8 @@
 *
 * 	Template Style 
 *
+* The original theme colour is #FF9000 with rgb(255, 144, 0)
+* I changed to w3school green #04AA6D with rgb(4, 170, 109)
 * ======================================================= */
 body {
   font-family: "Space Mono", Arial, serif;
@@ -47,13 +49,13 @@ body {
 }
 
 a {
-  color: #37CA08;
+  color: #04AA6D;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #37CA08;
+  color: #04AA6D;
   outline: none;
   text-decoration: none;
 }
@@ -71,17 +73,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #37CA08;
+  background: #04AA6D;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #37CA08;
+  background: #04AA6D;
 }
 
 ::selection {
   color: #fff;
-  background: #37CA08;
+  background: #04AA6D;
 }
 
 #fh5co-header,
@@ -100,7 +102,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 144, 0, 0.9);
+  background: rgba(4, 170, 109, 0.9);
 }
 #fh5co-header .display-t,
 .fh5co-cover .display-t {
@@ -222,7 +224,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #37CA08; /* Original: #FF9000 */
+  background: #04AA6D; /* Original: #FF9000 */
 }
 #fh5co-features h2 {
   color: #fff;
@@ -257,7 +259,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: #37CA08 !important;
+  color: #04AA6D !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -308,7 +310,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #37CA08;
+  background: #04AA6D;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -365,7 +367,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color: #37CA08;
+  color: #04AA6D;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -402,7 +404,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: #37CA08;
+  background: #04AA6D;
 }
 
 .fh5co-heading {
@@ -532,7 +534,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 50%;
   margin-left: -21px;
-  background-color: #37CA08;
+  background-color: #04AA6D;
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -801,7 +803,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: #37CA08;
+  color: #04AA6D;
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1111,9 +1113,9 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: #37CA08;
+  background: #04AA6D;
   color: #fff;
-  border: 2px solid #37CA08;
+  border: 2px solid #04AA6D;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #ff9b1a !important;
@@ -1121,11 +1123,11 @@ input[type="text"] {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #37CA08;
-  border: 2px solid #37CA08;
+  color: #04AA6D;
+  border: 2px solid #04AA6D;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #37CA08;
+  background: #04AA6D;
   color: #fff;
 }
 
@@ -1255,7 +1257,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #37CA08;
+  border-color: #04AA6D;
 }
 
 .row-pb-md {
