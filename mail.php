@@ -5,7 +5,7 @@
 
 //function to send email 
 function do_send_mail($app_title, $from, $to, $subj, $msg) {
-	require_once('Mail.php'); // includes the PEAR Mail class, already on your server.
+	include_once('Mail.php'); // includes the PEAR Mail class, already on your server.
 	
 	//The email headers	
 	$cont_type	= "text/html; charset=UTF-8\r\n";
@@ -15,7 +15,7 @@ function do_send_mail($app_title, $from, $to, $subj, $msg) {
 	//an existing email account in your hosting account
 	$smtp = Mail::factory(
 		'smtp', array (
-		'host'=>'mail.tankotech.com.ng', 
+		'host'=>'tankotech.com.ng', 
 		'auth'=>true, 
 		'username'=>'tankote5', 
 		'password'=>'w2E;32-TElub6T', 
